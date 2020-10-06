@@ -98,7 +98,7 @@
   font-weight: normal;
 }
 
-.two-columns__brief_link{
+.two-columns__brief_link {
   text-decoration: none;
   color: #2f80ed;
 }
@@ -291,9 +291,6 @@
 }
 
 .footer__column_content_info {
-  line-height: 30px;
-  font-style: 18px;
-  font-weight: bold;
   flex-basis: auto;
 }
 
@@ -314,6 +311,7 @@
 }
 
 .footer__social-icon {
+  font-weight: normal;
   display: block;
   text-decoration: none;
   color: white;
