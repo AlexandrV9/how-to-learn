@@ -5,7 +5,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Научиться учиться</title>
-  <link rel="stylesheet" href="./vendor/normalize.css">
   <link rel="stylesheet" href="./pages/index.css">
 </head>
 
@@ -185,15 +184,16 @@
 
       <section class="khan">
         <div class="khan__container">
-          <h3 class="khan__author">Салман Хан</h3>
+          <p class="khan__author">Салман Хан</p>
           <h2 class="khan__title">Весь мир — школа</h2>
-          <p class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему
+          <blockquote class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по
+            всему
             миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду
-            смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</p>
+            смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</blockquote>
           <p class="khan__quote-author">Джордж Лукас</p>
           <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
           <div class="khan__book-container">
-            <img src="./images/khan-book.jpg" alt="Книга &#8223; Весь мир — школа &#8223;" class="book-pic">
+            <img src="./images/khan-book.jpg" alt="Книга &#8223; Весь мир — школа &#8223;" class="khan__book-pic">
             <a href="#" class="khan__buy-link">Купить книгу &#8594;</a>
           </div>
         </div>
@@ -249,7 +249,8 @@
 
           <li class="table__cell table__cell_theme_dark">
             <h3 class="table__heading table__heading_theme_dark">9</h3>
-            <p class="table__text table__text_theme_dark">Занимайтесь по расписанию, короткими интенсивными интервалами.
+            <p class="table__text table__text_theme_dark">Занимайтесь по расписанию, короткими интенсивными
+              интервалами.
             </p>
           </li>
 
@@ -259,18 +260,24 @@
           </li>
 
         </ul>
-        <img src="./images/kaufman-triangle.svg" alt="Синий треугольник" class="kaufman__triangle rotation">
+        <div class="kaufman__triangle rotation  "></div>
+        <!--
+        <img src="./images/kaufman-triangle.svg" alt="Синий треугольник" class="kaufman__triangle rotation">-->
       </section>
-
       <section class="resources">
         <h2 class="section-title resources__section-title">Полезные ресурсы</h2>
         <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
-        <div class="resources__logo-zone">
-          <img src="./images/logo/resources-arzamas.svg" alt="Слово Arzamas" class="resources__logo">
-          <img src="./images/logo/resources-n1.svg" alt="Выражение N+1" class="resources__logo">
-          <img src="./images/logo/resources-strelka.svg" alt="Слово Strelka" class="resources__logo">
-          <img src="./images/logo/resources-polka.svg" alt="Слово Polka" class="resources__logo">
-        </div>
+        <ul class="resources__logo-zone">
+
+          <li class="resources__logo-list-item"><a href="#"class="resources__logo-link"><img src="./images/logo/resources-arzamas.svg" alt="Слово Arzamas" class="resources__logo"></a></li>
+
+          <li class="resources__logo-list-item"><a href="#"class="resources__logo-link"><img src="./images/logo/resources-n1.svg" alt="Выражение N+1" class="resources__logo"></a></li>
+
+          <li class="resources__logo-list-item"><a href="#"class="resources__logo-link"><img src="./images/logo/resources-strelka.svg" alt="Слово Strelka" class="resources__logo"></a></li>
+
+          <li class="resources__logo-list-item"><a href="#"class="resources__logo-link"><img src="./images/logo/resources-polka.svg" alt="Слово Polka" class="resources__logo"></a></li>
+
+        </ul>
       </section>
 
     </main>
